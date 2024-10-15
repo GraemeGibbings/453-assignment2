@@ -2,6 +2,25 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-public static main void() {
-	return 0;
+class Server{
+	public static main void() {
+		Socket s = null;
+		InputStreamReader isr = null;
+		OutputStreamWriter osr = null;
+
+		BufferedReader br = null;
+		BufferedWriter bw = null;
+		Scanner scanner = new(Scanner(system.in);
+
+		while (true){
+			
+			String msg = scanner.nextline();
+			bw.write(msg);
+			bw.newLine();
+			bw.flush();
+			
+
+			}
+		return 0;
 	}
+}

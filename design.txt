@@ -1,0 +1,27 @@
+Java Client:
+
+
+C# Server:
+
+	create hash table for storing chat rooms
+	setup connection
+	wait
+
+
+
+create chat room
+	ask for name of new chat room
+	store chat room in hash table
+	key: supplied name
+	value: "Welcome to {supplied name}"
+
+list all existing rooms
+	loop through keys in hashmap
+
+join existing chat-rooms
+	ask for name of chat room to join
+	output all values for that name to the client.
+	switch connection for the client so that new messages go to that chat room
+
+leave a chat room
+	remove connection so that any new messages do not go to any chat room
